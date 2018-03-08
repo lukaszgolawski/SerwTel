@@ -6,7 +6,6 @@ import panelcustomerslist.addcustomer.controller.AddCustomerFrameController;
 
 public class AddCustomer extends ConnectDatabase{
     AddCustomerFrameController addCustomerFrameController = new AddCustomerFrameController();
-    @Test
     protected void process() {
         Customers customers = new Customers();
         customers.setName(addCustomerFrameController.addNameCustomer);

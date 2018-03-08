@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bedd701-3893-4dff-94b7-a01a24565f6d" name="Default" comment="" />
+    <list default="true" id="6bedd701-3893-4dff-94b7-a01a24565f6d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/AddOrder.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/Orders.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/Orders.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/ModelTableCustomers.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/ModelTableCustomers.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,41 +22,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Orders.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Orders.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/Orders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="476">
+              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1263#1264#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1476#1477#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1639#1640#0" expanded="true" />
-                <element signature="e#1689#1690#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
+                <element signature="e#1578#1579#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,29 +72,37 @@
       <file leaf-file-name="DisplayOrders.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/AddOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisplayCustomers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/DisplayCustomers.java">
+      <file leaf-file-name="ModelTableOrders.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +116,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -107,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/UpdateCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/DeleteCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/DisplayCustomers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/view/MainFrame.form" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java" />
@@ -118,15 +144,19 @@
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/ModelTableController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/panelcustomerslist/controller/databasetools/AddCustomerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.form" />
-        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/view/MainFrameCustomers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/ModelTableCustomers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/AddOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java" />
       </list>
     </option>
   </component>
@@ -141,6 +171,7 @@
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -267,16 +298,7 @@
               <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
               <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +318,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Biblioteki/ojdbc6.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.31149426" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Programowanie/Main/SerwTel/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
@@ -323,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="JUnit.AddCustomer.process">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -348,25 +370,6 @@
     <configuration name="TableExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TableExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration name="TableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.codejava.swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="net.codejava.swing.TableExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -442,6 +445,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="AddCustomer.process" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="panelcustomerslist.controller.databasetools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SerwTel" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="panelcustomerslist.controller.databasetools" />
+      <option name="MAIN_CLASS_NAME" value="panelcustomerslist.controller.databasetools.AddCustomer" />
+      <option name="METHOD_NAME" value="process" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -504,18 +532,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TableExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TableExample (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AddCustomerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AddCustomer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TableExample (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AddCustomerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AddCustomer" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AddCustomer.process" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddCustomer" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AddCustomerTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TableExample (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TableExample" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddCustomer.process" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddCustomer" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AddCustomerTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TableExample (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +564,7 @@
       <workItem from="1520407162110" duration="21395000" />
       <workItem from="1520448207814" duration="612000" />
       <workItem from="1520490758700" duration="21119000" />
-      <workItem from="1520525142392" duration="7712000" />
+      <workItem from="1520525142392" duration="10724000" />
     </task>
     <servers />
   </component>
@@ -550,16 +578,19 @@
     <history-entry file="AddCustomerTest - 2018.03.08 at 18h 12m 52s.xml">
       <configuration name="AddCustomerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddCustomer_process - 2018.03.08 at 21h 41m 26s.xml">
+      <configuration name="AddCustomer.process" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61510000" />
+    <option name="totallyTimeSpent" value="64522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5079491" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.50158983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -576,9 +607,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.4920509" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.49841017" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1426868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -635,7 +666,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java</url>
-          <line>38</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -645,11 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/view/MainFrameCustomers.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/view/MainFrameCustomers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -672,10 +698,10 @@
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,32 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/ModelTableCustomers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/panelcustomerslist/controller/databasetools/AddCustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -937,21 +941,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#187#188#0" expanded="false" />
-            <element signature="e#211#212#0" expanded="false" />
-            <element signature="e#260#261#0" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java">
@@ -1014,64 +1003,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/DisplayCustomers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/DisplayCustomers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/Orders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="476">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/ModelTableCustomers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/AddOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
           </folding>
         </state>
       </provider>

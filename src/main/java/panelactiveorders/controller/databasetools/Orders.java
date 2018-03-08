@@ -1,6 +1,8 @@
 package panelactiveorders.controller.databasetools;
 
 
+import panelcustomerslist.controller.databasetools.Customers;
+
 import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Timestamp;
@@ -10,20 +12,21 @@ import java.sql.Timestamp;
 public class Orders {
     @Id
     @GeneratedValue
-    @Column(name="ID_ORDER")
+    @Column(name = "ID_ORDER")
     private int idOrder;
-    @Column(name = "ID_CUSTOMER")
-    private int idCustomer;
-    @Column(name="MODEL_PHONE")
+    @Column(name = "MODEL_PHONE")
     private String modelPhone;
-    @Column(name="PROBLEM")
+    @Column(name = "PROBLEM")
     private String problem;
-    @Column(name="STATUS")
+    @Column(name = "STATUS")
     private String status;
-    @Column(name="START_DATE")
+    @Column(name = "START_DATE")
     private java.sql.Timestamp startDate;
-    @Column(name="FINISH_DATE")
+    @Column(name = "FINISH_DATE")
     private java.sql.Date finishDate;
+    @ManyToOne
+    @JoinColumn(name = "ID_CUSTOMER")
+    private Customers customers;
 
     public int getIdOrder() {
         return idOrder;
@@ -31,14 +34,6 @@ public class Orders {
 
     public void setIdOrder(int idOrder) {
         this.idOrder = idOrder;
-    }
-
-    public int getIdCustomer() {
-        return idCustomer;
-    }
-
-    public void setIdCustomer(int idCustomer) {
-        this.idCustomer = idCustomer;
     }
 
     public String getModelPhone() {

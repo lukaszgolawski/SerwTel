@@ -1,6 +1,9 @@
 package panelcustomerslist.controller.databasetools;
 
+import panelactiveorders.controller.databasetools.Orders;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "CUSTOMERS")
@@ -21,7 +24,8 @@ public class Customers {
     private String city;
     @Column(name = "TELNUM")
     private String telnum;
-
+    @OneToMany(mappedBy = "customers")
+    private List<Orders> orders;
 
     public int getId() {
         return id;
