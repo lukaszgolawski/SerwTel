@@ -4,28 +4,29 @@ package panelactiveorders.controller.databasetools;
 import panelcustomerslist.controller.databasetools.Customers;
 
 import javax.persistence.*;
-import java.sql.Date;
-import java.sql.Timestamp;
+import java.util.Date;
 
 @Entity
-@Table(name = "CUSTOMERS")
+@Table(name = "ORDERS")
 public class Orders {
     @Id
     @GeneratedValue
     @Column(name = "ID_ORDER")
     private int idOrder;
-    @Column(name = "MODEL_PHONE")
+    @Column(name = "MODEL_PHONE", nullable = false)
     private String modelPhone;
-    @Column(name = "PROBLEM")
+    @Column(name = "PROBLEM", nullable = false)
     private String problem;
-    @Column(name = "STATUS")
+    @Column(name = "STATUS", nullable = false)
     private String status;
-    @Column(name = "START_DATE")
-    private java.sql.Timestamp startDate;
+    @Column(name = "START_DATE", nullable = false)
+    @Temporal(value = TemporalType.DATE)
+    private java.util.Date startDate;
     @Column(name = "FINISH_DATE")
-    private java.sql.Date finishDate;
+    @Temporal(value = TemporalType.DATE)
+    private java.util.Date finishDate;
     @ManyToOne
-    @JoinColumn(name = "ID_CUSTOMER")
+    @JoinColumn(name = "ID_CUSTOMER", nullable = false)
     private Customers customers;
 
     public int getIdOrder() {
@@ -60,11 +61,11 @@ public class Orders {
         this.status = status;
     }
 
-    public Timestamp getStartDate() {
+    public Date getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Timestamp startDate) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
@@ -74,5 +75,13 @@ public class Orders {
 
     public void setFinishDate(Date finishDate) {
         this.finishDate = finishDate;
+    }
+
+    public Customers getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(Customers customers) {
+        this.customers = customers;
     }
 }

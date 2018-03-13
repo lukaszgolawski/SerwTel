@@ -1,6 +1,8 @@
 package panelcustomerslist.controller;
 
 
+import panelactiveorders.addorder.controller.AddOrderFrameController;
+import panelactiveorders.controller.databasetools.AddOrder;
 import panelcustomerslist.addcustomer.controller.AddCustomerFrameController;
 import panelcustomerslist.addcustomer.controller.EditCustomerFrameController;
 import panelcustomerslist.controller.databasetools.DeleteCustomer;
@@ -30,9 +32,10 @@ public class MainFrameCustomersController {
     private JButton addCustomer;
     private JButton editCustomer;
     private JButton deleteCustomer;
+    private JButton buttonSelect;
     private int indexSelectedRow = -1;
 
-    ModelTableCustomers model = new ModelTableCustomers();
+    private ModelTableCustomers model = new ModelTableCustomers();
 
     public MainFrameCustomersController() {
         initComponents();
@@ -53,11 +56,12 @@ public class MainFrameCustomersController {
         mainPanel = mainFrameCustomers.getMainPanel();
         tableDisplayDataCustomers = mainFrameCustomers.getTableDisplayDataCustomers();
         jScrollPanel = mainFrameCustomers.getjScrollPanel();
-        addCustomer = mainFrameCustomers.getAddCustomer();
-        editCustomer = mainFrameCustomers.getEditCustomer();
-        deleteCustomer = mainFrameCustomers.getDeleteCustomer();
+        addCustomer = mainFrameCustomers.getButtonAddCustomer();
+        editCustomer = mainFrameCustomers.getButtonEditCustomer();
+        deleteCustomer = mainFrameCustomers.getButtonDeleteCustomer();
+        buttonSelect = mainFrameCustomers.getButtonSelect();
         tableDisplayDataCustomers.setModel(new ModelTableCustomers());
-        mainFrameCustomers.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainFrameCustomers.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         model.useDatabaseConnection();
         createEvents();
 
@@ -79,6 +83,11 @@ public class MainFrameCustomersController {
                 deleteCustomerEvent();
             }
         });
+        buttonSelect.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                selectCustomerEvent();
+            }
+        });
         tableDisplayDataCustomers.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
             public void valueChanged(ListSelectionEvent event) {
                 indexSelectedRow = tableDisplayDataCustomers.getSelectedRow();
@@ -94,6 +103,13 @@ public class MainFrameCustomersController {
                 }
             }
         });
+    }
+
+    private void selectCustomerEvent() {
+        transferId = String.valueOf(model.getValueAt(indexSelectedRow, 0));
+        AddOrderFrameController addOrderFrameController = new AddOrderFrameController();
+        addOrderFrameController.showMainFrameWindow();
+        mainFrameCustomers.dispose();
     }
 
     private void addCustomerEvent() {
@@ -117,7 +133,7 @@ public class MainFrameCustomersController {
             transferNumTel = String.valueOf(model.getValueAt(indexSelectedRow, 6));
             EditCustomerFrameController editCustomerFrameController = new EditCustomerFrameController();
             editCustomerFrameController.showMainFrameWindow();
-        }catch (IndexOutOfBoundsException e){
+        } catch (IndexOutOfBoundsException e) {
             JOptionPane.showMessageDialog(null, "Zaznacz pozycje do edycji");
         }
     }

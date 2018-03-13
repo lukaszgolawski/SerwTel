@@ -10,9 +10,10 @@ public class MainFrameCustomers extends JFrame {
     private JPanel mainPanel;
     private JTable tableDisplayDataCustomers;
     private JScrollPane jScrollPanel;
-    private JButton addCustomer;
-    private JButton editCustomer;
-    private JButton deleteCustomer;
+    private JButton buttonAddCustomer;
+    private JButton buttonEditCustomer;
+    private JButton buttonDeleteCustomer;
+    private JButton buttonSelect;
 
     public MainFrameCustomers() {
         setSize(WIDTH, HEIGHT);
@@ -32,16 +33,20 @@ public class MainFrameCustomers extends JFrame {
         return jScrollPanel;
     }
 
-    public JButton getAddCustomer() {
-        return addCustomer;
+    public JButton getButtonAddCustomer() {
+        return buttonAddCustomer;
     }
 
-    public JButton getEditCustomer() {
-        return editCustomer;
+    public JButton getButtonEditCustomer() {
+        return buttonEditCustomer;
     }
 
-    public JButton getDeleteCustomer() {
-        return deleteCustomer;
+    public JButton getButtonDeleteCustomer() {
+        return buttonDeleteCustomer;
+    }
+
+    public JButton getButtonSelect() {
+        return buttonSelect;
     }
 }
 

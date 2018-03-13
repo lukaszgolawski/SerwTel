@@ -12,7 +12,7 @@ public class Customers {
     @GeneratedValue
     @Column(name = "ID")
     private int id;
-    @Column(name = "NAME")
+    @Column(name = "NAME", nullable = false)
     private String name;
     @Column(name = "NIP")
     private String nip;
@@ -22,7 +22,7 @@ public class Customers {
     private String pcode;
     @Column(name = "CITY")
     private String city;
-    @Column(name = "TELNUM")
+    @Column(name = "TELNUM", nullable = false)
     private String telnum;
     @OneToMany(mappedBy = "customers")
     private List<Orders> orders;
@@ -83,4 +83,11 @@ public class Customers {
         this.telnum = telnum;
     }
 
+    public List<Orders> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Orders> orders) {
+        this.orders = orders;
+    }
 }

@@ -1,8 +1,12 @@
 package panelactiveorders.controller;
 
+import panelactiveorders.addorder.controller.AddOrderFrameController;
+import panelactiveorders.controller.databasetools.AddOrder;
 import panelactiveorders.view.MainFrameOrders;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MainFrameOrdersController {
     private MainFrameOrders mainFrameOrders;
@@ -22,6 +26,7 @@ public class MainFrameOrdersController {
     }
     private void initComponents() {
         mainFrameOrders = new MainFrameOrders();
+        mainFrameOrders.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jScrollPanel = mainFrameOrders.getjScrollPanel();
         tableDisplayDataOrders = mainFrameOrders.getTableDisplayDataOrders();
         addOrder = mainFrameOrders.getAddOrder();
@@ -29,5 +34,11 @@ public class MainFrameOrdersController {
         closeOrder = mainFrameOrders.getCloseOrder();
         generateInvoice = mainFrameOrders.getGenerateInvoice();
         mainPanel = mainFrameOrders.getMainPanel();
+        addOrder.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                AddOrderFrameController addOrderFrameController = new AddOrderFrameController();
+                addOrderFrameController.showMainFrameWindow();
+            }
+        });
     }
 }
