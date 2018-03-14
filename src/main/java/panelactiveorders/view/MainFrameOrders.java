@@ -10,7 +10,7 @@ public class MainFrameOrders extends JFrame{
     private JButton addOrder;
     private JButton editOrder;
     private JButton closeOrder;
-    private JButton generateInvoice;
+    private JButton buttonGenerateConfirmation;
     private JPanel mainPanel;
 
     public MainFrameOrders() {
@@ -39,8 +39,8 @@ public class MainFrameOrders extends JFrame{
         return closeOrder;
     }
 
-    public JButton getGenerateInvoice() {
-        return generateInvoice;
+    public JButton getButtonGenerateConfirmation() {
+        return buttonGenerateConfirmation;
     }
 
     public JPanel getMainPanel() {

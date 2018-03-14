@@ -9,24 +9,29 @@ import javax.swing.table.AbstractTableModel;
 public class ModelTableCustomers extends AbstractTableModel {
     private String[] columnNames;
     DisplayCustomers displayCustomers;
+
     public void useDatabaseConnection() {
         displayCustomers = new DisplayCustomers();
         displayCustomers.execute();
 
     }
+
     @Override
     public int getColumnCount() {
         return 7;
     }
+
     @Override
     public int getRowCount() {
         return displayCustomers.resultList.size();
     }
+
     @Override
     public String getColumnName(int col) {
         columnNames = new String[]{"Lp", "Nazwa", "NIP", "Ulica", "Kod pocztowy", "Miasto", "Numer telefony"};
         return columnNames[col];
     }
+
     @Override
     public Object getValueAt(int row, int col) {
         Customers c = displayCustomers.resultList.get(row);

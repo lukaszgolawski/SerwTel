@@ -1,7 +1,6 @@
 package panelactiveorders.controller;
 
 import panelactiveorders.controller.databasetools.DisplayOrders;
-import panelactiveorders.controller.databasetools.Orders;
 
 import javax.swing.table.AbstractTableModel;
 
@@ -17,7 +16,7 @@ public class ModelTableOrders extends AbstractTableModel {
 
     @Override
     public int getColumnCount() {
-        return 5;
+        return 7;
     }
 
     @Override
@@ -27,24 +26,28 @@ public class ModelTableOrders extends AbstractTableModel {
 
     @Override
     public String getColumnName(int col) {
-        columnNames = new String[]{"Lp", "Model telefonu", "Opis problemu", "Status naprawy", "Data przyjęcia"};
+        columnNames = new String[]{"Lp", "Klient", "Numer telefonu", "Model telefonu", "Status naprawy", "Opis problemu", "Data przyjęcia"};
         return columnNames[col];
     }
 
     @Override
     public Object getValueAt(int row, int col) {
-        Orders o = displayOrders.resultList.get(row);
+        Object[] list = displayOrders.resultList.get(row);
         switch (col) {
             case 0:
-                return o.getIdOrder();
+                return list[0];
             case 1:
-                return o.getModelPhone();
+                return list[1];
             case 2:
-                return o.getProblem();
+                return list[2];
             case 3:
-                return o.getStatus();
+                return list[3];
             case 4:
-                return o.getStartDate();
+                return list[4];
+            case 5:
+                return list[5];
+            case 6:
+                return list[6];
         }
         return null;
 

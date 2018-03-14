@@ -1,28 +1,18 @@
 package panelactiveorders.controller.databasetools;
 
 import databasetool.ConnectDatabase;
-import panelcustomerslist.controller.databasetools.Customers;
 
-import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Join;
-import javax.persistence.criteria.Root;
+import javax.persistence.Query;
 import java.util.List;
 
-public class DisplayOrders extends ConnectDatabase{
 
-    public static List<Orders> resultList;
+public class DisplayOrders extends ConnectDatabase {
+
+    public static List<Object[]> resultList;
+
     @Override
     protected void process() {
-        CriteriaBuilder builder = entityManager.getCriteriaBuilder();
-        CriteriaQuery<Customers> criteriaQuery = builder.createQuery(Customers.class);
-
-        Root<Orders> ordersRoot = criteriaQuery.from(Orders.class);
-        Join<Orders,Customers> displayOrder = ordersRoot.join("fullOrder");
-        criteriaQuery.select(displayOrder);
-        //TypedQuery<> query = entityManager.createQuery(criteriaQuery);
-
-        //resultList = query.getResultList();
+        Query query = entityManager.createNativeQuery("SELECT O.ID_ORDER, C.NAME, C.TELNUM, O.MODEL_PHONE, O.STATUS, O.PROBLEM, O.START_DATE FROM ORDERS O JOIN CUSTOMERS C ON C.ID = O.ID_CUSTOMER");
+        resultList = query.getResultList();
     }
 }

@@ -21,7 +21,6 @@ public class AddOrder extends ConnectDatabase {
         orders.setCustomers(customers);
 
         entityManager.getTransaction().begin();
-       // entityManager.persist(customers);
         entityManager.persist(orders);
         entityManager.getTransaction().commit();
     }

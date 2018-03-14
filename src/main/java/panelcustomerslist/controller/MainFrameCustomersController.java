@@ -2,7 +2,6 @@ package panelcustomerslist.controller;
 
 
 import panelactiveorders.addorder.controller.AddOrderFrameController;
-import panelactiveorders.controller.databasetools.AddOrder;
 import panelcustomerslist.addcustomer.controller.AddCustomerFrameController;
 import panelcustomerslist.addcustomer.controller.EditCustomerFrameController;
 import panelcustomerslist.controller.databasetools.DeleteCustomer;
