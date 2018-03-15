@@ -15,6 +15,7 @@ public class AddOrderFrame extends JFrame{
     private JButton buttonClear;
     private JTextArea fieldProblem;
     private JButton buttonFindCustomer;
+    private JTextField fieldNameCustomer;
 
     public AddOrderFrame() {
         setSize(WIDTH, HEIGHT);
@@ -57,5 +58,9 @@ public class AddOrderFrame extends JFrame{
 
     public JButton getButtonFindCustomer() {
         return buttonFindCustomer;
+    }
+
+    public JTextField getFieldNameCustomer() {
+        return fieldNameCustomer;
     }
 }

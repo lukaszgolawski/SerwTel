@@ -10,7 +10,7 @@ import java.util.Date;
 @Table(name = "ORDERS")
 public class Orders {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID_ORDER")
     private int idOrder;
     @Column(name = "MODEL_PHONE", nullable = false)
@@ -20,11 +20,13 @@ public class Orders {
     @Column(name = "STATUS", nullable = false)
     private String status;
     @Column(name = "START_DATE", nullable = false)
-    @Temporal(value = TemporalType.DATE)
+    @Temporal(value = TemporalType.TIMESTAMP)
     private java.util.Date startDate;
     @Column(name = "FINISH_DATE")
-    @Temporal(value = TemporalType.DATE)
+    @Temporal(value = TemporalType.TIMESTAMP)
     private java.util.Date finishDate;
+    @Column(name = "ACTIVE")
+    private char active;
     @ManyToOne
     @JoinColumn(name = "ID_CUSTOMER", nullable = false)
     private Customers customers;
@@ -83,5 +85,13 @@ public class Orders {
 
     public void setCustomers(Customers customers) {
         this.customers = customers;
+    }
+
+    public char getActive() {
+        return active;
+    }
+
+    public void setActive(char active) {
+        this.active = active;
     }
 }

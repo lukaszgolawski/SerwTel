@@ -41,7 +41,7 @@ public class AddCustomerFrameController {
     private void initComponents() {
         addCustomerFrame = new AddCustomerFrame();
         addCustomerFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-
+        addCustomerFrame.setTitle("SerwTel");
         fieldNameCustomer = addCustomerFrame.getFieldNameCustomer();
         fieldNipCustomer = addCustomerFrame.getFieldNipCustomer();
         fieldStreetCustomer = addCustomerFrame.getFieldStreetCustomer();
@@ -55,13 +55,14 @@ public class AddCustomerFrameController {
 
         buttonEvents();
     }
-    private void buttonEvents(){
+
+    private void buttonEvents() {
 
         buttonAddCustomer.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 AddCustomer addCustomer = new AddCustomer();
                 addNameCustomer = fieldNameCustomer.getText();
-                addNipCustomer =fieldNipCustomer.getText();
+                addNipCustomer = fieldNipCustomer.getText();
                 addStreetCustomer = fieldStreetCustomer.getText();
                 addPostCodeCustomer = fieldPostCodeCustomer.getText();
                 addCityCustomer = fieldCityCustomer.getText();
@@ -75,7 +76,7 @@ public class AddCustomerFrameController {
         });
         buttonFindKrs.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                addNipCustomer =fieldNipCustomer.getText();
+                addNipCustomer = fieldNipCustomer.getText();
                 FindsDataCampany findsDataCampany = new FindsDataCampany();
                 fieldNameCustomer.setText(findsDataCampany.nameFound);
                 fieldStreetCustomer.setText(findsDataCampany.streetFound);

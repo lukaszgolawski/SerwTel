@@ -40,6 +40,7 @@ public class EditCustomerFrameController {
     private void initComponents() {
         addCustomerFrame = new AddCustomerFrame();
         addCustomerFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        addCustomerFrame.setTitle("SerwTel");
         fieldNameCustomer = addCustomerFrame.getFieldNameCustomer();
         fieldNipCustomer = addCustomerFrame.getFieldNipCustomer();
         fieldStreetCustomer = addCustomerFrame.getFieldStreetCustomer();

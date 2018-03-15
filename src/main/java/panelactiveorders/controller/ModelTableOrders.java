@@ -16,7 +16,7 @@ public class ModelTableOrders extends AbstractTableModel {
 
     @Override
     public int getColumnCount() {
-        return 7;
+        return 8;
     }
 
     @Override
@@ -26,7 +26,7 @@ public class ModelTableOrders extends AbstractTableModel {
 
     @Override
     public String getColumnName(int col) {
-        columnNames = new String[]{"Lp", "Klient", "Numer telefonu", "Model telefonu", "Status naprawy", "Opis problemu", "Data przyjęcia"};
+        columnNames = new String[]{"Lp", "Model telefonu", "Status naprawy", "Opis problemu", "Data przyjęcia","ID Klienta", "Klient", "Numer telefonu"};
         return columnNames[col];
     }
 
@@ -48,6 +48,8 @@ public class ModelTableOrders extends AbstractTableModel {
                 return list[5];
             case 6:
                 return list[6];
+            case 7:
+                return list[7];
         }
         return null;
 

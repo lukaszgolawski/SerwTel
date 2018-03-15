@@ -53,6 +53,7 @@ public class MainFrameCustomersController {
     private void initComponents() {
         mainFrameCustomers = new MainFrameCustomers();
         mainPanel = mainFrameCustomers.getMainPanel();
+        mainFrameCustomers.setTitle("SerwTel");
         tableDisplayDataCustomers = mainFrameCustomers.getTableDisplayDataCustomers();
         jScrollPanel = mainFrameCustomers.getjScrollPanel();
         addCustomer = mainFrameCustomers.getButtonAddCustomer();
@@ -106,6 +107,7 @@ public class MainFrameCustomersController {
 
     private void selectCustomerEvent() {
         transferId = String.valueOf(model.getValueAt(indexSelectedRow, 0));
+        transferName = String.valueOf(model.getValueAt(indexSelectedRow, 1));
         AddOrderFrameController addOrderFrameController = new AddOrderFrameController();
         addOrderFrameController.showMainFrameWindow();
         mainFrameCustomers.dispose();

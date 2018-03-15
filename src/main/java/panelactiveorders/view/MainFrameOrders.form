@@ -21,7 +21,9 @@
         <children>
           <component id="c3c53" class="javax.swing.JTable" binding="tableDisplayDataOrders">
             <constraints/>
-            <properties/>
+            <properties>
+              <autoResizeMode value="3"/>
+            </properties>
           </component>
         </children>
       </scrollpane>

@@ -18,7 +18,9 @@ public class AddOrder extends ConnectDatabase {
         orders.setStatus("Przyjęto");
         orders.setStartDate(new Date());
         orders.setFinishDate(null);
+        orders.setActive('T');
         orders.setCustomers(customers);
+
 
         entityManager.getTransaction().begin();
         entityManager.persist(orders);
