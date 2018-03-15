@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 public class AddOrderFrame extends JFrame{
     private static final int WIDTH = 400;
-    private static final int HEIGHT = 200;
+    private static final int HEIGHT = 250;
     private JPanel mainPanelAddOrder;
     private JTextField fieldIdCustomer;
     private JTextField fieldModelPhone;

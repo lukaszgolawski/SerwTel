@@ -7,6 +7,7 @@ import panelcustomerslist.addcustomer.controller.EditCustomerFrameController;
 import panelcustomerslist.controller.databasetools.DeleteCustomer;
 import panelcustomerslist.view.MainFrameCustomers;
 
+import javax.persistence.RollbackException;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -150,10 +151,13 @@ public class MainFrameCustomersController {
                 idSelectedRow = convertVariableOnInt(model.getValueAt(indexSelectedRow, 0));
                 DeleteCustomer deleteCustomer = new DeleteCustomer();
                 deleteCustomer.execute();
+
                 refreashTable();
             }
         } catch (IndexOutOfBoundsException e) {
             JOptionPane.showMessageDialog(null, "Zaznacz pozycje do usuniecia");
+        } catch (RollbackException e) {
+            JOptionPane.showMessageDialog(null, "Klient posiada podpięte zlecenia serwisowe. Usunięcie niemożliwe!");
         }
     }
 

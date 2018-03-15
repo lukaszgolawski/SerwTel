@@ -12,6 +12,10 @@ public class MainFrameOrders extends JFrame{
     private JButton closeOrder;
     private JButton buttonGenerateConfirmation;
     private JPanel mainPanel;
+    private JTextArea textArea1;
+    private JLabel labelStatus;
+    private JButton buttonSaveStatus;
+    private JButton buttonCancel;
 
     public MainFrameOrders() {
         setSize(WIDTH, HEIGHT);
@@ -45,5 +49,21 @@ public class MainFrameOrders extends JFrame{
 
     public JPanel getMainPanel() {
         return mainPanel;
+    }
+
+    public JTextArea getTextArea1() {
+        return textArea1;
+    }
+
+    public JLabel getLabelStatus() {
+        return labelStatus;
+    }
+
+    public JButton getButtonSaveStatus() {
+        return buttonSaveStatus;
+    }
+
+    public JButton getButtonCancel() {
+        return buttonCancel;
     }
 }
