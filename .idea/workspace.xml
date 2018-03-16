@@ -1,38 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SerwTel:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6bedd701-3893-4dff-94b7-a01a24565f6d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GeneratorHelper.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Invoice/FV1.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Invoice/potwierdzenie.pdf" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GetConfirmation.java" afterPath="$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GetConfirmation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.form" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.form" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/databasetool/ConnectDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/databasetool/ConnectDatabase.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/CloseOrder.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/CloseOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/EditOrder.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/EditOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.form" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.form" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$1.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$2.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$3.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$4.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/databasetools/CloseOrder.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/databasetools/CloseOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/databasetools/EditOrder.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/databasetools/EditOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/view/MainFrameOrders.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/view/MainFrameOrders.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$1.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$2.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$3.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$4.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$5.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$6.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$7.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$7.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +27,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="GetConfirmation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GetConfirmation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1426">
+              <caret line="112" column="17" lean-forward="false" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/databasetool/ConnectDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/view/AddCustomerFrame.form" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/view/AddCustomerFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/UpdateCustomer.java" />
@@ -96,22 +89,23 @@
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/Orders.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/EditStatusFrame.form" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/EditOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/CloseOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GeneratorHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.form" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GetConfirmation.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.form" />
+        <option value="$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GetConfirmation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/databasetool/ConnectDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" />
       </list>
     </option>
   </component>
@@ -128,7 +122,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -188,85 +182,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="addorder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="addorder" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="addorder" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="addorder" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="AddOrderFrame" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="databasetools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="panelactiveorders" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="MainFrameOrders" type="e9f4de52:FormNode" />
+              <item name="databasetool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
@@ -283,6 +199,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="panelcustomerslist" type="462c0819:PsiDirectoryNode" />
+              <item name="addcustomer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="panelcustomerslist" type="462c0819:PsiDirectoryNode" />
+              <item name="addcustomer" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,8 +218,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="panelcustomerslist" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="databasetools" type="462c0819:PsiDirectoryNode" />
+              <item name="addcustomer" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="panelcustomerslist" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SerwTel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="panelcustomerslist" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="MainFrameCustomers" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="SerwTel" type="b2602c69:ProjectViewProjectNode" />
@@ -318,10 +263,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,8 +274,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Biblioteki/ojdbc6.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.31149426" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Programowanie/Main/SerwTel/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -579,7 +524,9 @@
       <workItem from="1520964424494" duration="2515000" />
       <workItem from="1521010591648" duration="11700000" />
       <workItem from="1521035662943" duration="7311000" />
-      <workItem from="1521100048105" duration="24920000" />
+      <workItem from="1521100048105" duration="25295000" />
+      <workItem from="1521148048242" duration="907000" />
+      <workItem from="1521191187877" duration="1938000" />
     </task>
     <servers />
   </component>
@@ -601,40 +548,40 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130902000" />
+    <option name="totallyTimeSpent" value="134122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5111288" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49682036" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.48569158" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.48887122" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3265625" sideWeight="0.5127186" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.4872814" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.49841017" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14626391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14825119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49682036" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.48569158" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -680,7 +627,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -746,13 +693,6 @@
     <entry file="file://$USER_HOME$/Desktop/intellij-idea-swing-creator-master/intellij-idea-swing-creator-master/src/main/java/pl/dmichalski/gui_swing/ui/controller/MainFrameController.java" />
     <entry file="file://$USER_HOME$/Desktop/TableExample.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/panelcustomerslist/controller/databasetools/AddCustomerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/databasetool/ConnectDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -772,26 +712,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/InvoiceGenerator/Tester.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
           <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/UpdateCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -804,6 +729,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/view/AddCustomerFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/EditStatusFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/EditStatusFrame.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GeneratorHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1521144072218" expanded="true" signature="489:776" ph="SELECT O.ID_... ORDERS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/databasetool/ConnectDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initComponents#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#createEvents#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="e#3490#3638#0" expanded="true" />
+            <element signature="e#3637#3638#0" expanded="true" />
+            <element signature="method#widthColumn#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#convertVariableOnInt#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#addOrderEvent#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#editOrderEvent#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#closeOrderEvent#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#generateConfirmationEvent#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#saveStatusEvent#0;class#MainFrameOrdersController#0" expanded="false" />
+            <element signature="method#cancelEvent#0;class#MainFrameOrdersController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/AddOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -812,44 +815,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/CloseOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="93" lean-forward="false" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="153" lean-forward="false" selection-start-line="14" selection-start-column="153" selection-end-line="14" selection-end-column="153" />
+          <folding>
+            <marker date="1521143242241" expanded="true" signature="348:566" ph="SELECT O.ID_... ORDERS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/EditOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/Orders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="405">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
           <folding>
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2068#2069#0" expanded="true" />
-            <element signature="e#2099#2100#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2170#2171#0" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,18 +875,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/view/AddCustomerFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="440">
+          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -887,65 +914,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/Customers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/view/MainFrameCustomers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state relative-caret-position="712">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
-            <element signature="e#1191#1192#0" expanded="false" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/AddCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/EditStatusFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/EditStatusFrame.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/EditOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/CloseOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="93" lean-forward="false" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/DeleteCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -958,138 +939,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/view/AddOrderFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GeneratorHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1521144072218" expanded="true" signature="489:775" ph="SELECT O.MOD... ORDERS" />
-            <marker date="1521144072218" expanded="true" signature="489:776" ph="SELECT O.MOD... ORDERS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/databasetools/DisplayOrders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="153" lean-forward="false" selection-start-line="14" selection-start-column="153" selection-end-line="14" selection-end-column="153" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1521143242241" expanded="true" signature="348:525" ph="SELECT O.ID_... ORDERS" />
-            <marker date="1521143242241" expanded="true" signature="348:542" ph="SELECT O.ID_... ORDERS" />
-            <marker date="1521143242241" expanded="true" signature="348:546" ph="SELECT O.ID_... ORDERS" />
-            <marker date="1521143242241" expanded="true" signature="348:566" ph="SELECT O.ID_... ORDERS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/ModelTableOrders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/DeleteCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/databasetools/UpdateCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/view/MainFrameCustomers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="e#1191#1192#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConfirmationGenerator/GetConfirmation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/view/MainFrameOrders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding>
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
-          <folding>
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#3346#3493#0" expanded="true" />
-            <element signature="e#3492#3493#0" expanded="true" />
-            <element signature="e#3532#3669#0" expanded="true" />
-            <element signature="e#3668#3669#0" expanded="true" />
-            <element signature="e#3709#3847#0" expanded="true" />
-            <element signature="e#3846#3847#0" expanded="true" />
-            <element signature="e#3893#4438#0" expanded="true" />
-            <element signature="e#4437#4438#0" expanded="true" />
-            <element signature="e#4480#4777#0" expanded="true" />
-            <element signature="e#4776#4777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        <state relative-caret-position="1426">
+          <caret line="112" column="17" lean-forward="false" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1099,11 +978,20 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>SerwTel:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31149426" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

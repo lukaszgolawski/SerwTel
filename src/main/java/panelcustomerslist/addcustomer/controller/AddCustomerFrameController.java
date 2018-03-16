@@ -42,6 +42,7 @@ public class AddCustomerFrameController {
         addCustomerFrame = new AddCustomerFrame();
         addCustomerFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         addCustomerFrame.setTitle("SerwTel");
+
         fieldNameCustomer = addCustomerFrame.getFieldNameCustomer();
         fieldNipCustomer = addCustomerFrame.getFieldNipCustomer();
         fieldStreetCustomer = addCustomerFrame.getFieldStreetCustomer();
@@ -53,10 +54,10 @@ public class AddCustomerFrameController {
         buttonFindKrs = addCustomerFrame.getButtonFindKrs();
         mainPanelAddCustomer = addCustomerFrame.getMainPanelAddCustomer();
 
-        buttonEvents();
+        createEvents();
     }
 
-    private void buttonEvents() {
+    private void createEvents() {
 
         buttonAddCustomer.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {

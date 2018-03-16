@@ -76,18 +76,9 @@ public class MainFrameOrdersController {
             }
         });
 
-        model.useDatabaseConnection();
         addOrder.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
-                AddOrderFrameController addOrderFrameController = new AddOrderFrameController();
-                addOrderFrameController.showMainFrameWindow();
-                mainFrameOrders.dispose();
-            }
-        });
-        buttonGenerateConfirmation.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                generatConfirmationEvent();
+                addOrderEvent();
             }
         });
         editOrder.addActionListener(new ActionListener() {
@@ -100,25 +91,19 @@ public class MainFrameOrdersController {
                 closeOrderEvent();
             }
         });
+        buttonGenerateConfirmation.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                generateConfirmationEvent();
+            }
+        });
         buttonSaveStatus.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                EditOrder editOrder = new EditOrder();
-                transferStatus = fieldStatus.getText();
-                editOrder.execute();
-                model.useDatabaseConnection();
-                tableDisplayDataOrders.getModel();
-                tableDisplayDataOrders.repaint();
-                fieldStatus.setVisible(false);
-                labelStatus.setVisible(false);
-                buttonSaveStatus.setVisible(false);
+                saveStatusEvent();
             }
         });
         buttonCancel.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                fieldStatus.setVisible(false);
-                labelStatus.setVisible(false);
-                buttonSaveStatus.setVisible(false);
-                buttonCancel.setVisible(false);
+                cancelEvent();
             }
         });
     }
@@ -136,6 +121,25 @@ public class MainFrameOrdersController {
 
     private int convertVariableOnInt(Object variableToConvert) {
         return Integer.valueOf(String.valueOf(variableToConvert));
+    }
+
+    private void addOrderEvent() {
+        AddOrderFrameController addOrderFrameController = new AddOrderFrameController();
+        addOrderFrameController.showMainFrameWindow();
+        mainFrameOrders.dispose();
+    }
+
+    private void editOrderEvent() {
+        try {
+            fieldStatus.setText(String.valueOf(model.getValueAt(indexSelectedRow, 2)));
+            transferIdOrder = convertVariableOnInt(model.getValueAt(indexSelectedRow, 0));
+            fieldStatus.setVisible(true);
+            labelStatus.setVisible(true);
+            buttonSaveStatus.setVisible(true);
+            buttonCancel.setVisible(true);
+        } catch (IndexOutOfBoundsException e) {
+            JOptionPane.showMessageDialog(null, "Zaznacz pozycje");
+        }
     }
 
     private void closeOrderEvent() {
@@ -158,7 +162,7 @@ public class MainFrameOrdersController {
         }
     }
 
-    private void generatConfirmationEvent() {
+    private void generateConfirmationEvent() {
         try {
             int choose = JOptionPane.showConfirmDialog(
                     null,
@@ -182,16 +186,22 @@ public class MainFrameOrdersController {
         }
     }
 
-    private void editOrderEvent() {
-        try {
-            fieldStatus.setText(String.valueOf(model.getValueAt(indexSelectedRow, 2)));
-            transferIdOrder = convertVariableOnInt(model.getValueAt(indexSelectedRow, 0));
-            fieldStatus.setVisible(true);
-            labelStatus.setVisible(true);
-            buttonSaveStatus.setVisible(true);
-            buttonCancel.setVisible(true);
-        } catch (IndexOutOfBoundsException e) {
-            JOptionPane.showMessageDialog(null, "Zaznacz pozycje");
-        }
+    private void saveStatusEvent() {
+        EditOrder editOrder = new EditOrder();
+        transferStatus = fieldStatus.getText();
+        editOrder.execute();
+        model.useDatabaseConnection();
+        tableDisplayDataOrders.getModel();
+        tableDisplayDataOrders.repaint();
+        fieldStatus.setVisible(false);
+        labelStatus.setVisible(false);
+        buttonSaveStatus.setVisible(false);
+    }
+
+    private void cancelEvent() {
+        fieldStatus.setVisible(false);
+        labelStatus.setVisible(false);
+        buttonSaveStatus.setVisible(false);
+        buttonCancel.setVisible(false);
     }
 }

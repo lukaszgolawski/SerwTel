@@ -5,8 +5,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 abstract public class ConnectDatabase {
+    protected EntityManager entityManager;
     private EntityManagerFactory entityManagerFactory;
-    public EntityManager entityManager;
 
     public void execute() {
         connector();

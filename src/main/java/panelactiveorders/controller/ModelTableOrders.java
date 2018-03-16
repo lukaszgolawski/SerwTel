@@ -33,7 +33,6 @@ public class ModelTableOrders extends AbstractTableModel {
     @Override
     public Object getValueAt(int row, int col) {
         Object[] list = displayOrders.resultList.get(row);
-        //System.out.println(dateFormat.format(Date.valueOf(String.valueOf(list[4]))));
         switch (col) {
             case 0:
                 return list[0]; //O.ID_ORDER

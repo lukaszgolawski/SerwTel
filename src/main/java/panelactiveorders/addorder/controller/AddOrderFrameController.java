@@ -54,7 +54,10 @@ public class AddOrderFrameController {
         fieldData.setText(format.format(date));
         fieldIdCustomer.setText(mainFrameCustomersController.transferId);
         fieldNameCustomer.setText(mainFrameCustomersController.transferName);
+        createEvents();
+    }
 
+    private void createEvents() {
         buttonFindCustomer.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 mainFrameCustomersController.showMainFrameWindow();

@@ -41,6 +41,7 @@ public class EditCustomerFrameController {
         addCustomerFrame = new AddCustomerFrame();
         addCustomerFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         addCustomerFrame.setTitle("SerwTel");
+
         fieldNameCustomer = addCustomerFrame.getFieldNameCustomer();
         fieldNipCustomer = addCustomerFrame.getFieldNipCustomer();
         fieldStreetCustomer = addCustomerFrame.getFieldStreetCustomer();
@@ -51,18 +52,12 @@ public class EditCustomerFrameController {
         buttonClear = addCustomerFrame.getButtonClear();
         buttonFindKrs = addCustomerFrame.getButtonFindKrs();
         mainPanelAddCustomer = addCustomerFrame.getMainPanelAddCustomer();
-        buttonEvents();
-        buttonAddCustomer.setText("Zapisz");
-        fieldNameCustomer.setText(mainFrameCustomersController.transferName);
-        fieldNipCustomer.setText(mainFrameCustomersController.transferNip);
-        fieldStreetCustomer.setText(mainFrameCustomersController.transferStreet);
-        fieldCityCustomer.setText(mainFrameCustomersController.transferCity);
-        fieldPostCodeCustomer.setText(mainFrameCustomersController.transferPostCode);
-        fieldNumTelCustomer.setText(mainFrameCustomersController.transferNumTel);
-        updateIdCustomer = Integer.valueOf(mainFrameCustomersController.transferId);
+
+        createEvents();
+        introducesTextFields();
     }
 
-    private void buttonEvents() {
+    private void createEvents() {
         buttonAddCustomer.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 UpdateCustomer updateCustomer = new UpdateCustomer();
@@ -74,8 +69,19 @@ public class EditCustomerFrameController {
                 updateNumTelCustomer = fieldNumTelCustomer.getText();
                 updateCustomer.execute();
                 mainFrameCustomersController.refreashTable();
-                 addCustomerFrame.dispose();
+                addCustomerFrame.dispose();
             }
         });
+    }
+
+    private void introducesTextFields() {
+        buttonAddCustomer.setText("Zapisz");
+        fieldNameCustomer.setText(mainFrameCustomersController.transferName);
+        fieldNipCustomer.setText(mainFrameCustomersController.transferNip);
+        fieldStreetCustomer.setText(mainFrameCustomersController.transferStreet);
+        fieldCityCustomer.setText(mainFrameCustomersController.transferCity);
+        fieldPostCodeCustomer.setText(mainFrameCustomersController.transferPostCode);
+        fieldNumTelCustomer.setText(mainFrameCustomersController.transferNumTel);
+        updateIdCustomer = Integer.valueOf(mainFrameCustomersController.transferId);
     }
 }

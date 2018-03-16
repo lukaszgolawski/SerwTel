@@ -13,8 +13,6 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 
 public class MainFrameCustomersController {
     public static int idSelectedRow;
@@ -94,24 +92,6 @@ public class MainFrameCustomersController {
                 indexSelectedRow = tableDisplayDataCustomers.getSelectedRow();
             }
         });
-        tableDisplayDataCustomers.addKeyListener(new KeyAdapter() {
-        });
-        tableDisplayDataCustomers.addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == 116) {
-                    refreashTable();
-                }
-            }
-        });
-    }
-
-    private void selectCustomerEvent() {
-        transferId = String.valueOf(model.getValueAt(indexSelectedRow, 0));
-        transferName = String.valueOf(model.getValueAt(indexSelectedRow, 1));
-        AddOrderFrameController addOrderFrameController = new AddOrderFrameController();
-        addOrderFrameController.showMainFrameWindow();
-        mainFrameCustomers.dispose();
     }
 
     private void addCustomerEvent() {
@@ -160,6 +140,15 @@ public class MainFrameCustomersController {
             JOptionPane.showMessageDialog(null, "Klient posiada podpięte zlecenia serwisowe. Usunięcie niemożliwe!");
         }
     }
+
+    private void selectCustomerEvent() {
+        transferId = String.valueOf(model.getValueAt(indexSelectedRow, 0));
+        transferName = String.valueOf(model.getValueAt(indexSelectedRow, 1));
+        AddOrderFrameController addOrderFrameController = new AddOrderFrameController();
+        addOrderFrameController.showMainFrameWindow();
+        mainFrameCustomers.dispose();
+    }
+
 
     private int convertVariableOnInt(Object variableToConvert) {
         return Integer.valueOf(String.valueOf(variableToConvert));

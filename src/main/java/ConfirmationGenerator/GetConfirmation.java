@@ -45,10 +45,12 @@ public class GetConfirmation {
     private void createPdf(String filename)
             throws DocumentException, IOException {
         Document document = new Document();
-        BaseFont bf1 = BaseFont.createFont("c:/windows/fonts/arial.ttf", BaseFont.CP1250, BaseFont.EMBEDDED);
-        Font french = new Font(bf1, 8);
+        BaseFont baseFont = BaseFont.createFont("c:/windows/fonts/arial.ttf", BaseFont.CP1250, BaseFont.EMBEDDED);
+        Font font = new Font(baseFont, 8);
         PdfWriter.getInstance(document, new FileOutputStream(filename));
+
         document.open();
+
         Paragraph date = new Paragraph();
         date.setAlignment(Element.ALIGN_RIGHT);
         date.add("Warszawa, " + dateOrder);
@@ -74,27 +76,29 @@ public class GetConfirmation {
         document.add(new Phrase("\n"));
 
         document.add(new Paragraph("Model telefonu"));
-        document.add(new Phrase(modelPhone, french));
+        document.add(new Phrase(modelPhone, font));
 
         document.add(new Phrase("\n"));
         document.add(new Phrase("\n"));
 
         document.add(new Paragraph("Opis usterki"));
-        document.add(new Phrase(problem, french));
+        document.add(new Phrase(problem, font));
 
         document.add(new Phrase("\n"));
         document.add(new Phrase("\n"));
+
         document.add(signatures());
+
         document.close();
     }
 
     private PdfPTable dataCustomerHeader() throws DocumentException, IOException {
-        BaseFont bf1 = BaseFont.createFont("c:/windows/fonts/arial.ttf", BaseFont.CP1250, BaseFont.EMBEDDED);
-        Font french = new Font(bf1, 9);
+        BaseFont baseFont = BaseFont.createFont("c:/windows/fonts/arial.ttf", BaseFont.CP1250, BaseFont.EMBEDDED);
+        Font font = new Font(baseFont, 9);
         PdfPTable table = new PdfPTable(2);
         table.setWidthPercentage(100f);
-        PdfPCell myDataCampany = new PdfPCell(new Phrase("Dane serwisu:" + "\n \n" + myNameCampany + "\n" + "NIP: " + myNipCampany + "\n" + myStreetCampany + "\n" + myPostCodeCampany + "\n" + myNumberPhone + "\n", french));
-        PdfPCell customerData = new PdfPCell(new Phrase("Dane klienta: " + "\n \n" + nameCustomer + "\n" + "NIP: " + nipCustomer + "\n" + streetCustomer + "\n" + postCodeCustomer + " " + cityCustomer + "\n" + numberPhoneCustomer, french));
+        PdfPCell myDataCampany = new PdfPCell(new Phrase("Dane serwisu:" + "\n \n" + myNameCampany + "\n" + "NIP: " + myNipCampany + "\n" + myStreetCampany + "\n" + myPostCodeCampany + "\n" + myNumberPhone + "\n", font));
+        PdfPCell customerData = new PdfPCell(new Phrase("Dane klienta: " + "\n \n" + nameCustomer + "\n" + "NIP: " + nipCustomer + "\n" + streetCustomer + "\n" + postCodeCustomer + " " + cityCustomer + "\n" + numberPhoneCustomer, font));
 
         myDataCampany.setBorder(Rectangle.NO_BORDER);
         customerData.setBorder(Rectangle.NO_BORDER);
@@ -105,12 +109,14 @@ public class GetConfirmation {
     }
 
     private PdfPTable signatures() throws DocumentException, IOException {
-        BaseFont bf1 = BaseFont.createFont("c:/windows/fonts/arial.ttf", BaseFont.CP1250, BaseFont.EMBEDDED);
-        Font french = new Font(bf1, 9);
+        BaseFont baseFont = BaseFont.createFont("c:/windows/fonts/arial.ttf", BaseFont.CP1250, BaseFont.EMBEDDED);
+        Font font = new Font(baseFont, 9);
+
         PdfPTable table = new PdfPTable(2);
         table.setWidthPercentage(100f);
-        PdfPCell signatureCustomer = new PdfPCell(new Phrase(".............................................. \n Podpis klienta", french));
-        PdfPCell signatureService = new PdfPCell(new Phrase(".............................................. \n Podpis serwisu", french));
+
+        PdfPCell signatureCustomer = new PdfPCell(new Phrase(".............................................. \n Podpis klienta", font));
+        PdfPCell signatureService = new PdfPCell(new Phrase(".............................................. \n Podpis serwisu", font));
 
         signatureCustomer.setBorder(Rectangle.NO_BORDER);
         signatureService.setBorder(Rectangle.NO_BORDER);
@@ -123,6 +129,7 @@ public class GetConfirmation {
     private void generateData() {
         GeneratorHelper generatorHelper = new GeneratorHelper();
         generatorHelper.execute();
+
         Object[] result = generatorHelper.resultList.get(0);
         idOrder = String.valueOf(result[0]);
         dateOrder = String.valueOf(result[1]);
