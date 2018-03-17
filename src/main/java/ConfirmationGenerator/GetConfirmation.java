@@ -36,7 +36,7 @@ public class GetConfirmation {
     }
 
     public void execute() throws DocumentException, IOException {
-        String file = "Invoice/potwierdzenie" + idOrder + ".pdf";
+        String file = "Confirmation/potwierdzenie" + idOrder + ".pdf";
         new GetConfirmation().createPdf(file);
         File myFile = new File(file);
         Desktop.getDesktop().open(myFile);

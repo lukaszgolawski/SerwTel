@@ -76,9 +76,15 @@ public class MainFrameOrdersController {
             }
         });
 
+        model.useDatabaseConnection();
         addOrder.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 addOrderEvent();
+            }
+        });
+        buttonGenerateConfirmation.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                generatConfirmationEvent();
             }
         });
         editOrder.addActionListener(new ActionListener() {
@@ -89,11 +95,6 @@ public class MainFrameOrdersController {
         closeOrder.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 closeOrderEvent();
-            }
-        });
-        buttonGenerateConfirmation.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                generateConfirmationEvent();
             }
         });
         buttonSaveStatus.addActionListener(new ActionListener() {
@@ -162,7 +163,7 @@ public class MainFrameOrdersController {
         }
     }
 
-    private void generateConfirmationEvent() {
+    private void generatConfirmationEvent() {
         try {
             int choose = JOptionPane.showConfirmDialog(
                     null,
@@ -196,6 +197,7 @@ public class MainFrameOrdersController {
         fieldStatus.setVisible(false);
         labelStatus.setVisible(false);
         buttonSaveStatus.setVisible(false);
+        buttonCancel.setVisible(false);
     }
 
     private void cancelEvent() {

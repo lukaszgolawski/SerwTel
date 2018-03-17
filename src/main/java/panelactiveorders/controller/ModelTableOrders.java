@@ -6,7 +6,7 @@ import javax.swing.table.AbstractTableModel;
 
 public class ModelTableOrders extends AbstractTableModel {
     private String[] columnNames;
-    DisplayOrders displayOrders;
+    private DisplayOrders displayOrders;
 
     public void useDatabaseConnection() {
         displayOrders = new DisplayOrders();
