@@ -3,7 +3,7 @@ Program functions:
 - adding new orders
 - displaying new orders
 - changing status order
-- generating confirmation 
+- generating confirmation (example: https://github.com/lukaszgolawski/serwtel/blob/master/Confirmation/potwierdzenie21.pdf)
 - add new customers
 - downloading data campany from KRS (You have to enter a NIP number and other data will be automatically saved)
 - editing data customers
