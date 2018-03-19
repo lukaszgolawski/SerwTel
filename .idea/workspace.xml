@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bedd701-3893-4dff-94b7-a01a24565f6d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="AddCustomerFrameController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="63" column="104" lean-forward="false" selection-start-line="63" selection-start-column="104" selection-end-line="63" selection-end-column="104" />
+            <state relative-caret-position="714">
+              <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="52" />
               <folding>
                 <element signature="e#2378#3446#0" expanded="true" />
                 <element signature="e#3445#3446#0" expanded="true" />
@@ -483,7 +483,7 @@
       <workItem from="1521148048242" duration="907000" />
       <workItem from="1521191187877" duration="3757000" />
       <workItem from="1521320297898" duration="2060000" />
-      <workItem from="1521446978030" duration="7954000" />
+      <workItem from="1521446978030" duration="8318000" />
     </task>
     <servers />
   </component>
@@ -505,7 +505,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145955000" />
+    <option name="totallyTimeSpent" value="146319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -906,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="63" column="104" lean-forward="false" selection-start-line="63" selection-start-column="104" selection-end-line="63" selection-end-column="104" />
+        <state relative-caret-position="714">
+          <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="52" />
           <folding>
             <element signature="e#2378#3446#0" expanded="true" />
             <element signature="e#3445#3446#0" expanded="true" />
