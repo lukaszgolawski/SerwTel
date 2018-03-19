@@ -8,24 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bedd701-3893-4dff-94b7-a01a24565f6d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/addorder/controller/AddOrderFrameController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java" afterPath="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" afterPath="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/addorder/controller/AddOrderFrameController$1.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/addorder/controller/AddOrderFrameController$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/addorder/controller/AddOrderFrameController$2.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/addorder/controller/AddOrderFrameController$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/addorder/controller/AddOrderFrameController.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/addorder/controller/AddOrderFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController.class" afterPath="$PROJECT_DIR$/target/classes/panelactiveorders/controller/MainFrameOrdersController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/addcustomer/controller/AddCustomerFrameController$2.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/addcustomer/controller/AddCustomerFrameController$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/addcustomer/controller/FindsDataCampany.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/addcustomer/controller/FindsDataCampany.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$1.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$2.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$3.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$4.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$5.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController.class" afterPath="$PROJECT_DIR$/target/classes/panelcustomerslist/controller/MainFrameCustomersController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,51 +21,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainFrameOrdersController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="221" column="1" lean-forward="false" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createEvents#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="e#3181#3328#0" expanded="true" />
-                <element signature="e#3327#3328#0" expanded="true" />
-                <element signature="method#widthColumn#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#convertVariableOnInt#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#addOrderEvent#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#editOrderEvent#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#closeOrderEvent#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#generatConfirmationEvent#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#saveStatusEvent#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#cancelEvent#0;class#MainFrameOrdersController#0" expanded="false" />
-                <element signature="method#closeProgramEvent#0;class#MainFrameOrdersController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddCustomerFrameController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddCustomerFrameController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="253">
+              <caret line="63" column="104" lean-forward="false" selection-start-line="63" selection-start-column="104" selection-end-line="63" selection-end-column="104" />
               <folding>
-                <element signature="e#3191#3980#0" expanded="true" />
-                <element signature="e#3979#3980#0" expanded="true" />
-                <element signature="e#4026#4300#0" expanded="true" />
-                <element signature="e#4299#4300#0" expanded="true" />
+                <element signature="e#2378#3446#0" expanded="true" />
+                <element signature="e#3445#3446#0" expanded="true" />
+                <element signature="e#3489#4313#0" expanded="true" />
+                <element signature="e#4312#4313#0" expanded="true" />
+                <element signature="e#4359#4633#0" expanded="true" />
+                <element signature="e#4632#4633#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindsDataCampany.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -153,8 +104,8 @@
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/controller/MainFrameCustomersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/EditCustomerFrameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java" />
-        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java" />
       </list>
     </option>
   </component>
@@ -532,7 +483,7 @@
       <workItem from="1521148048242" duration="907000" />
       <workItem from="1521191187877" duration="3757000" />
       <workItem from="1521320297898" duration="2060000" />
-      <workItem from="1521446978030" duration="6766000" />
+      <workItem from="1521446978030" duration="7954000" />
     </task>
     <servers />
   </component>
@@ -554,7 +505,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144767000" />
+    <option name="totallyTimeSpent" value="145955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -634,7 +585,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -923,31 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <element signature="e#3191#3980#0" expanded="true" />
-            <element signature="e#3979#3980#0" expanded="true" />
-            <element signature="e#4026#4300#0" expanded="true" />
-            <element signature="e#4299#4300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/panelactiveorders/controller/MainFrameOrdersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="221" column="1" lean-forward="false" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+        <state relative-caret-position="-461">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createEvents#0;class#MainFrameOrdersController#0" expanded="false" />
@@ -962,6 +892,29 @@
             <element signature="method#saveStatusEvent#0;class#MainFrameOrdersController#0" expanded="false" />
             <element signature="method#cancelEvent#0;class#MainFrameOrdersController#0" expanded="false" />
             <element signature="method#closeProgramEvent#0;class#MainFrameOrdersController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1211">
+          <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/panelcustomerslist/addcustomer/controller/AddCustomerFrameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="63" column="104" lean-forward="false" selection-start-line="63" selection-start-column="104" selection-end-line="63" selection-end-column="104" />
+          <folding>
+            <element signature="e#2378#3446#0" expanded="true" />
+            <element signature="e#3445#3446#0" expanded="true" />
+            <element signature="e#3489#4313#0" expanded="true" />
+            <element signature="e#4312#4313#0" expanded="true" />
+            <element signature="e#4359#4633#0" expanded="true" />
+            <element signature="e#4632#4633#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -61,24 +61,27 @@ public class AddCustomerFrameController {
 
         buttonAddCustomer.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                AddCustomer addCustomer = new AddCustomer();
-                addNameCustomer = fieldNameCustomer.getText();
-                addNipCustomer = fieldNipCustomer.getText();
-                addStreetCustomer = fieldStreetCustomer.getText();
-                addPostCodeCustomer = fieldPostCodeCustomer.getText();
-                addCityCustomer = fieldCityCustomer.getText();
-                addNumTelCustomer = fieldNumTelCustomer.getText();
-                addCustomer.execute();
-                mainFrameCustomersController.refreashTable();
-                mainFrameCustomersController.showMainFrameWindow();
-                addCustomerFrame.dispose();
-
+                if (fieldNameCustomer.getText().equals("") || fieldNumTelCustomer.getText().equals("")) {
+                    JOptionPane.showMessageDialog(null, "Musisz wpisać nazwe klienta i numer telefonu!");
+                } else {
+                    AddCustomer addCustomer = new AddCustomer();
+                    addNameCustomer = fieldNameCustomer.getText();
+                    addNipCustomer = fieldNipCustomer.getText();
+                    addStreetCustomer = fieldStreetCustomer.getText();
+                    addPostCodeCustomer = fieldPostCodeCustomer.getText();
+                    addCityCustomer = fieldCityCustomer.getText();
+                    addNumTelCustomer = fieldNumTelCustomer.getText();
+                    addCustomer.execute();
+                    mainFrameCustomersController.refreashTable();
+                    mainFrameCustomersController.showMainFrameWindow();
+                    addCustomerFrame.dispose();
+                }
             }
         });
         buttonFindKrs.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 if (fieldNipCustomer.getText().equals("") || fieldNipCustomer.getText().length() != 10) {
-                    JOptionPane.showMessageDialog(null, "Wpisz poprawny NIP!");
+                    JOptionPane.showMessageDialog(null, "Musisz wpisać numer NIP, który składa się z 10 znaków!");
                 } else {
                     addNipCustomer = fieldNipCustomer.getText();
                     FindsDataCampany findsDataCampany = new FindsDataCampany();
