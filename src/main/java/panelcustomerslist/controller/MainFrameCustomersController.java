@@ -2,6 +2,7 @@ package panelcustomerslist.controller;
 
 
 import panelactiveorders.addorder.controller.AddOrderFrameController;
+import panelactiveorders.controller.MainFrameOrdersController;
 import panelcustomerslist.addcustomer.controller.AddCustomerFrameController;
 import panelcustomerslist.addcustomer.controller.EditCustomerFrameController;
 import panelcustomerslist.controller.databasetools.DeleteCustomer;
@@ -90,6 +91,14 @@ public class MainFrameCustomersController {
         tableDisplayDataCustomers.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
             public void valueChanged(ListSelectionEvent event) {
                 indexSelectedRow = tableDisplayDataCustomers.getSelectedRow();
+            }
+        });
+        mainFrameCustomers.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                MainFrameOrdersController mainFrameOrdersController = new MainFrameOrdersController();
+                mainFrameCustomers.dispose();
+                mainFrameOrdersController.showMainFrameWindow();
             }
         });
     }

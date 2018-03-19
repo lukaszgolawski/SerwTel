@@ -40,7 +40,7 @@ public class AddCustomerFrameController {
 
     private void initComponents() {
         addCustomerFrame = new AddCustomerFrame();
-        addCustomerFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        addCustomerFrame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         addCustomerFrame.setTitle("SerwTel");
 
         fieldNameCustomer = addCustomerFrame.getFieldNameCustomer();
@@ -77,12 +77,23 @@ public class AddCustomerFrameController {
         });
         buttonFindKrs.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                addNipCustomer = fieldNipCustomer.getText();
-                FindsDataCampany findsDataCampany = new FindsDataCampany();
-                fieldNameCustomer.setText(findsDataCampany.nameFound);
-                fieldStreetCustomer.setText(findsDataCampany.streetFound);
-                fieldPostCodeCustomer.setText(findsDataCampany.postCodeFound);
-                fieldCityCustomer.setText(findsDataCampany.cityFound);
+                if (fieldNipCustomer.getText().equals("") || fieldNipCustomer.getText().length() != 10) {
+                    JOptionPane.showMessageDialog(null, "Wpisz poprawny NIP!");
+                } else {
+                    addNipCustomer = fieldNipCustomer.getText();
+                    FindsDataCampany findsDataCampany = new FindsDataCampany();
+                    fieldNameCustomer.setText(findsDataCampany.nameFound);
+                    fieldStreetCustomer.setText(findsDataCampany.streetFound);
+                    fieldPostCodeCustomer.setText(findsDataCampany.postCodeFound);
+                    fieldCityCustomer.setText(findsDataCampany.cityFound);
+                }
+            }
+        });
+        addCustomerFrame.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                addCustomerFrame.dispose();
+                mainFrameCustomersController.showMainFrameWindow();
             }
         });
     }

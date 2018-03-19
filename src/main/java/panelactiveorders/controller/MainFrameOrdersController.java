@@ -43,7 +43,7 @@ public class MainFrameOrdersController {
 
     private void initComponents() {
         mainFrameOrders = new MainFrameOrders();
-        mainFrameOrders.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainFrameOrders.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         mainFrameOrders.setTitle("SerwTel");
 
         jScrollPanel = mainFrameOrders.getjScrollPanel();
@@ -105,6 +105,12 @@ public class MainFrameOrdersController {
         buttonCancel.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 cancelEvent();
+            }
+        });
+        mainFrameOrders.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                closeProgramEvent();
             }
         });
     }
@@ -205,5 +211,12 @@ public class MainFrameOrdersController {
         labelStatus.setVisible(false);
         buttonSaveStatus.setVisible(false);
         buttonCancel.setVisible(false);
+    }
+
+    private void closeProgramEvent() {
+        int choose = JOptionPane.showConfirmDialog(null, "Czy zamknąć program?", "Potwierdzenie", JOptionPane.YES_NO_OPTION);
+        if (choose == 0) {
+            System.exit(0);
+        }
     }
 }

@@ -8,6 +8,8 @@ import panelcustomerslist.controller.MainFrameCustomersController;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ContainerAdapter;
+import java.awt.event.ContainerEvent;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -24,8 +26,9 @@ public class AddOrderFrameController {
     private JTextArea fieldProblem;
     private JButton buttonFindCustomer;
     private JTextField fieldNameCustomer;
+    private int choose;
     private MainFrameCustomersController mainFrameCustomersController = new MainFrameCustomersController();
-
+    private MainFrameOrdersController mainFrameOrdersController = new MainFrameOrdersController();
     public AddOrderFrameController() {
         initComponents();
     }
@@ -37,7 +40,7 @@ public class AddOrderFrameController {
 
     private void initComponents() {
         addOrderFrame = new AddOrderFrame();
-        addOrderFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        addOrderFrame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         addOrderFrame.setTitle("SerwTel");
 
         mainPanelAddOrder = addOrderFrame.getMainPanelAddOrder();
@@ -66,16 +69,28 @@ public class AddOrderFrameController {
         });
         buttonAddOrder.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                AddOrder addOrder = new AddOrder();
-                addIdCustomer = Integer.valueOf(fieldIdCustomer.getText());
+                if(fieldModelPhone.getText().equals("") || fieldProblem.getText().equals("") || fieldIdCustomer.getText().equals("")){
+                    JOptionPane.showMessageDialog(null, "Nie wprowadzono wszystkich danych");
+                }
+                else {
+                    AddOrder addOrder = new AddOrder();
+                    addIdCustomer = Integer.valueOf(fieldIdCustomer.getText());
 
-                addModelPhone = fieldModelPhone.getText();
-                addProblem = fieldProblem.getText();
-                addOrder.execute();
-                addOrderFrame.dispose();
-                mainFrameCustomersController.transferId = null;
-                MainFrameOrdersController mainFrameOrdersController = new MainFrameOrdersController();
-                mainFrameOrdersController.showMainFrameWindow();
+                    addModelPhone = fieldModelPhone.getText();
+                    addProblem = fieldProblem.getText();
+                    addOrder.execute();
+                    addOrderFrame.dispose();
+                    mainFrameCustomersController.transferId = null;
+                    MainFrameOrdersController mainFrameOrdersController = new MainFrameOrdersController();
+                    mainFrameOrdersController.showMainFrameWindow();
+                }
+            }
+        });
+        addOrderFrame.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                    addOrderFrame.dispose();
+                    mainFrameOrdersController.showMainFrameWindow();
             }
         });
     }
