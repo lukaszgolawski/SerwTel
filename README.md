@@ -5,7 +5,7 @@ Program functions:
 - changing status order
 - generating confirmation (example: https://github.com/lukaszgolawski/serwtel/blob/master/Confirmation/potwierdzenie21.pdf)
 - add new customers
-- downloading data campany from KRS (You have to enter a NIP number and other data will be automatically saved)
+- downloading data campany from KRS [LINK to FILE](https://github.com/lukaszgolawski/serwtel/blob/master/src/main/java/panelcustomerslist/addcustomer/controller/FindsDataCampany.java)
 - editing data customers
 - removing customers 
 
