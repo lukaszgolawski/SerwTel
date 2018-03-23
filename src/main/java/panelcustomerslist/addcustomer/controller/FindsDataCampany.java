@@ -15,8 +15,8 @@ public class FindsDataCampany {
     public static String postCodeFound;
     public static String cityFound;
     public static String urlToSearch;
-    AddCustomerFrameController addCustomerFrameController = new AddCustomerFrameController();
-    String nipToFind = addCustomerFrameController.addNipCustomer;
+    private AddCustomerFrameController addCustomerFrameController = new AddCustomerFrameController();
+    private String nipToFind = addCustomerFrameController.addNipCustomer;
 
 
     public FindsDataCampany() {
