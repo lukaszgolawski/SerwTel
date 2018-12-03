@@ -17,6 +17,8 @@ Building from sources:
 - Git
 - IntelliJ
 
+All persons are fictitious!
+
 ![alt tag](https://github.com/lukaszgolawski/serwtel/blob/master/Picture/OdersPanel.png?raw=true)
 ![alt tag](https://github.com/lukaszgolawski/serwtel/blob/master/Picture/addingOrder.png?raw=true)
 ![alt tag](https://github.com/lukaszgolawski/serwtel/blob/master/Picture/CustomerPanel.png?raw=true)
